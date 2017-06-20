@@ -1,15 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	A git repository is created. To keep track of all the changes on a project.
+
 How is the staging area different from the working directory and the repository?
+
+	The staging area holds all the files to be commited to the repository from the working directory.
 
 What value do you think it offers?
 
+	It allows us to choose which changes we like to commit.
+
 How can you use the staging area to make sure you have one commit per logical change?
+
+	Use git diff --staged to check the changes and add when a logical change occurs.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+	creating multiple versions with different versions of the project.
+
 How do the diagrams help you visualize the branch structure?
+
+	Helps visualise all the branches and commits.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+	Merging can combine the works done by diferent people into one commit. The representation helps easily visualise the commits and branches.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	
+	Pros - It speeds up the merging process.
+	Cons - It might delete useful lines of code and include umwanted code.
